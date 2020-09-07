@@ -17,6 +17,7 @@ def consolidate_cart(cart)
       cart_item[:count] += 1 
     else
       item[:count] = 1 
+      binding.pry
       new_array << item
     end
   end
